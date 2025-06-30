@@ -1,9 +1,10 @@
 import streamlit as st
 import pandas as pd
+import scikit-learn
 import joblib
 
 # Load trained model
-model = joblib.load("flight_price_model_latest.pkl")
+model = joblib.load("flight_price_model_latest_v2.pkl")
 
 # Define dropdown options
 airlines = ['SpiceJet', 'AirAsia', 'Vistara', 'GO_FIRST', 'Indigo', 'Air_India']
