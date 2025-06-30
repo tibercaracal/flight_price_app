@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load trained model
-model = joblib.load("flight_price_model_latest_v2.pkl")
+model = joblib.load("flight_price_model_sklearn170.pkl")
 
 # Define dropdown options
 airlines = ['SpiceJet', 'AirAsia', 'Vistara', 'GO_FIRST', 'Indigo', 'Air_India']
